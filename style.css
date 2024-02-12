@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#board{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+.box{
+    display: grid;
+    overflow: hidden;
+}
+
+.cell{
+    text-align: center;
+}
+
+.even{
+    background-color: aqua;
+}
+.odd{
+    background-color: palevioletred;
+}
+.even.won{
+    background-color: green;
+}
+.odd.won{
+    background-color: greenyellow;
+}
+
+.active.even{
+    background-color: paleturquoise;
+}
+.active.odd{
+    background-color: pink;
+}
